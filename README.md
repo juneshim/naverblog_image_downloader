@@ -13,7 +13,7 @@
 - 아직 스크립트가 없다면 아래 버튼으로 바로 내려받습니다.
 - 다운로드가 완료되면 저장된 폴더로 이동해 아래 단계를 진행하세요.
 
-[![Download naverblog_image_downloader.py](https://img.shields.io/badge/Download-naverblog__image__downloader.py-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/juneshim/naverblog_image_downloader/main/naverblog_image_downloader.py)
+[![Download naverblog_image_downloader.py](https://img.shields.io/badge/Download-naverblog__image__downloader.py-brightgreen?style=for-the-badge)](https://github.com/juneshim/naverblog_image_downloader/raw/main/naverblog_image_downloader.py)
 
 ### 1~3단계 (기본 준비)
 1) 저장소(또는 스크립트)가 있는 폴더로 이동:
