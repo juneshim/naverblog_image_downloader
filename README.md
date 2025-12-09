@@ -14,18 +14,19 @@
 ```
 cd Downloads/
 ```
+![step1](Asset/step1.png)
 
 2) 필요한 패키지 설치:
 ```
 pip install requests
 ```
+![step2](Asset/step2.png)
 
 3) 스크립트 실행:
 ```
 python naverblog_image_downloader.py
 ```
-
-- 실행 화면 캡처: `Asset/step1.png`, `Asset/step2.png`
+![step3](Asset/step3.png)
 
 ### 4단계 이후 (URL 추출~다운로드)
 4) 브라우저 콘솔에서 이미지 URL 추출  
@@ -36,20 +37,22 @@ Array.from(document.querySelectorAll('img.se-image-resource.egjs-visible'))
      .join('\n')
 ```
 - 출력된 URL 전체를 복사합니다.  
-- 캡처: `Asset/step3.png`, `Asset/step4.png`
+![step4](Asset/step4.png)
 
 5) `paste_urls.txt`에 URL 붙여넣기  
 - 스크립트 안내에 따라 생성된 `paste_urls.txt` 파일을 열어 복사한 URL을 붙여넣고 저장합니다.
 - Enter를 눌러 다음 단계로 진행합니다.  
-- 캡처: `Asset/step5.png`
+![step5](Asset/step5.png)
 
 6) 줄바꿈 정리 및 블로그 주소 입력  
 - 스크립트가 `urls_clean.txt`를 만들며 URL을 정리합니다.
 - 이어서 블로그 글 주소(예: `https://blog.naver.com/...`)를 입력합니다. 이것이 Referer 헤더로 사용됩니다.  
+![step6](Asset/step6.png)
 
 7) 다운로드  
 - URL 목록을 순회하며 이미지를 `downloaded/` 폴더에 `img_번호.jpg/png`로 저장합니다.
 - 완료 후 Enter를 누르면 `paste_urls.txt`, `urls_raw.txt`, `urls_clean.txt`를 자동으로 정리합니다.  
+![step7](Asset/step7.png)
 
 ## 폴더 구조
 - `naverblog_image_downloader.py`: 실행 스크립트
