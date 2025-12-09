@@ -13,7 +13,7 @@
 - 아직 스크립트가 없다면 아래에서 받아주세요.
 - 바로 저장이 안 뜨면 링크 우클릭 → “다른 이름으로 링크 저장”을 선택하세요.
 
-[![Download](https://github.com/juneshim/naverblog_image_downloader/releases/download/v1.0.0/naverblog_image_downloader.py)]
+![Download](https://github.com/juneshim/naverblog_image_downloader/releases/download/v1.0.0/naverblog_image_downloader.py)
 
 ### 1~3단계 (기본 준비)
 1) 저장소(또는 스크립트)가 있는 폴더로 이동:
